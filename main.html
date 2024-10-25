@@ -4,12 +4,63 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+
+	<style>
+		nav {
+            background-color: #333;
+            padding: 1em;
+            color: white;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /* Styling for the heading and image section */
+        .image-section {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .image-section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .image-section img {
+            margin: 10px;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+<nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Image Section with Heading -->
+    <div class="image-section">
+        <h2>3 random images</h2>
+        <img src="https://picsum.photos/id/123/200/300" alt="Random image">
+        <img src="https://picsum.photos/id/124/200/300" alt="Random image">
+        <img src="https://picsum.photos/id/125/200/300" alt="Random image">
+    </div>
 
 </body>
 
